@@ -10,5 +10,8 @@
     "javascript"
   ],
   "author": "Jessica Aquino",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
