@@ -10,7 +10,7 @@ const countCows = new Promise(function (resolve, reject) {
     if (cows > 10) {
         resolve(`We have ${cows} cows on the farm`);
     } else {
-        reject(`There is no enough cows on the farm`);
+        reject(`There are no enough cows on the farm`);
     }
 })
 
