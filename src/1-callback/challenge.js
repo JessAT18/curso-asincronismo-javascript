@@ -11,6 +11,10 @@ function fetchData(urlApi, callback) {
             if (xhttp.status === 200) {
                 callback(null, JSON.parse(xhttp.responseText));
             }
+        } else {
+            const error = new Error('Error ' + urlApi);
+            return callback(error, null);
         }
+        xhttp.send();
     };
 }
