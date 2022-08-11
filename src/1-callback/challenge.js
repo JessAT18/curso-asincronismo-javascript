@@ -18,6 +18,7 @@ function fetchData(urlApi, callback) {
     xhttp.send();
 }
 
+//Callback hell
 fetchData(`${API}/products`, function (error1, data1) {
     if (error1) {
         return console.error(error1);
