@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "ejemplo.js",
+  "type": "module",
   "scripts": {
     "callback": "node src/1-callback/challenge.js"
   },
@@ -12,6 +13,7 @@
   "author": "Jessica Aquino",
   "license": "MIT",
   "dependencies": {
+    "node-fetch": "^3.2.10",
     "xmlhttprequest": "^1.8.0"
   }
 }
